@@ -1,0 +1,58 @@
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden;
+  clip: rect(1px,1px,1px,1px);
+  width: 1px;
+  height: 1px;
+  word-wrap: normal;
+}
+
+body {
+  @apply scroll-smooth;
+  &.gin--horizontal-toolbar {
+    header {
+      @apply top-[40px] lg:top-[53px];
+    }
+    aside {
+      @apply top-[120px];
+    }
+    .element-header-wrapper {
+      @apply h-[96vh];
+    }
+  }
+  .element-donation-form {
+    iframe {
+      z-index: 20 !important;
+    }
+  }
+}
+
+#block-tabs{
+  display: none;
+  @apply bg-white;
+  @media only screen and (min-width: 991px){
+    display: block;
+    position: fixed;
+    padding: 1.5rem 1rem;
+    width: 15rem;
+    height: auto;
+    left: 0;
+    top: 40%;
+    box-shadow: 5px 0px 15px rgba(0,0,0,0.2);
+    z-index: 100000;
+    ul{
+      li{
+        list-style: none;
+        margin-bottom: 1rem;
+        a{
+          color: theme('colors.primary');
+          text-decoration: none;
+          transition: color .3s ease;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

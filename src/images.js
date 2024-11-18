@@ -1,0 +1,1 @@
+// export { default as Abonnement } from '@/assets/img/camerata-abonnement-image.jpg'

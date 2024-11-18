@@ -1,0 +1,17 @@
+name: Copyshop Oberndorf
+description: Custom Theme for Copyshop Oberndorf done by Motivachse Werbeagentur
+type: theme
+core_version_requirement: ^8 || ^9 || ^10 || ^11
+
+libraries:
+  - copyshop_oberndorf/global-styling
+
+libraries-override:
+  system/base: false
+
+base theme: stable9
+
+regions:
+  header: Header
+  content: Content
+  footer: Footer

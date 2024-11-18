@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    <head-placeholder token="{{ placeholder_token }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token }}">
+    <js-placeholder token="{{ placeholder_token }}">
+  </head>
+  <body{{ attributes }}>
+    <noscript><strong>{{ "We're sorry but doesn't work properly without JavaScript enabled. Please enable it to continue."|t }}</strong></noscript>
+    <div id="app" v-cloak>
+      {{ page_top }}
+      {{ page }}
+      {{ page_bottom }}
+    </div>
+    <js-bottom-placeholder token="{{ placeholder_token }}">
+  </body>
+</html>

@@ -1,0 +1,7 @@
+global-styling:
+  css:
+    theme:
+      "https://use.typekit.net/mol0yoy.css": {external: true}
+      dist/css/app.css : {}
+  js:
+    dist/app.js: {}

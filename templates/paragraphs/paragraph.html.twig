@@ -1,0 +1,13 @@
+{%
+  set classes = [
+    paragraph.bundle|clean_class,
+    not paragraph.isPublished() ? 'unpublished',
+  ]
+%}
+{% block paragraph %}
+  <section {{ attributes.addClass(classes) }}>
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </section>
+{% endblock paragraph %}
