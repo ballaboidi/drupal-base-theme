@@ -8,7 +8,9 @@ This Project is a Base Tempalte for a Custom Drupal > 8 Theme. It uses Drupals O
 Download the .zip File of the Repository and extract it into your Drupals theme Folder usually located under "*DRUPAL*/web/themes/custom".
 
 ## Setup
-cd into the Directory of the Theme and install all npm dependencies via ```npm install```
+1. cd into the Directory of the Theme and install all npm dependencies via ```npm install```
+2. Create a .env File and add the "VUE_APP_THEME_PATH" property, usually its "/themes/eyedea/dist"
+
 
 ## Development Server
 Start your Development Journey with ```npm run serve```
