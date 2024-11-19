@@ -1,0 +1,7 @@
+eyedea.general:
+  label: General
+  mediaQuery: ''
+  weight: 100
+  multipliers:
+    - 1x
+    - 2x

@@ -1,10 +1,10 @@
-name: Copyshop Oberndorf
-description: Custom Theme for Copyshop Oberndorf done by Motivachse Werbeagentur
+name: Eyedea Drupal Theme
+description: Custom Theme for Drupal using VueJs 3 and TailwindCSS created by Eyedea GmbH
 type: theme
 core_version_requirement: ^8 || ^9 || ^10 || ^11
 
 libraries:
-  - copyshop_oberndorf/global-styling
+  - eyedea/global-styling
 
 libraries-override:
   system/base: false
